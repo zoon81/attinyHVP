@@ -11,7 +11,7 @@
 #define LFUSE 0x62
 
 #define VCC       PD7     // Connect to VCC Pin 8
-#define RST       PD6     // Output to level shifter for !RESET from transistor to Pin 1
+#define RST       PD6     // Output to level shifter transistor base, for 12V !RESET from transistor to AVR Pin 1, 12V -- 5K -- Transistor Collector
 #define CLKOUT    PD5     // Connect to Serial Clock Input (SCI) Pin 2
 #define DATAIN    PD4     // Connect to Serial Data Output (SDO) Pin 7
 #define INSTOUT   PD3     // Connect to Serial Instruction Input (SII) Pin 6
